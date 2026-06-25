@@ -1,0 +1,12 @@
+=== HUNT THE WUMPUS - METICULOUS STD SM PROTOCOL TRACKING ===
+Protocol: Sense→Deduce→Triangulate→Shoot/Move→Map
+Rule: Record EVERY detail with 100% accuracy
+
+=== GAME START ===
+Room 2:
+- Threats: WUMPUS (*sniff*)
+- Tunnels: {11, 13, 20}
+- Deductions: Wumpus ∈ {11,13,20}
+- Notes: No bats, no pit smells
+
+NEXT MOVE: Room 13 (strategic data gathering)

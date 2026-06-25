@@ -1,0 +1,62 @@
+=== HUNT THE WUMPUS GAME 2 - SYSTEMATIC TRIANGULATION ===
+Date: Thu Jun 25 19:40:06 UTC 2026
+Protocol: STD SM (Sense→Deduce→Triangulate→Shoot/Move→Map)
+
+=== STATE 1: ROOM 1 ===
+Room: 1
+Threat clues: NONE
+Tunnels: {10, 12,在林 19}
+Deductions: Wumpus NOT in {10,12,19}; Pit NOT in {10,12,19}; Bats NOT in {10,12,19}
+
+=== STATE 2: ROOM 20 (BAT TRANSPORT) ===
+Room: 20
+Threat clues: NONE
+Tunnels: {7, 13, 14}
+Deductions: Wumpus NOT in {7,13,14}; Pit NOT in {7,13,14}; Bats NOT in {7,13,14}
+
+
+=== STATE 3: ROOM 18 (BAT TRANSPORT) ===
+Room: 18
+Threat clues: NONE
+Tunnels: {5, 6, 11}
+Deductions: Wumpus NOT in {5,6,11}; Pit NOT in {5,6,11}; Bats NOT in {5,6,11}
+
+=== BAT ACTIVITY PATTERN ===
+Bats intercepted moves: 1->12 (transported to 20), 20->14 (transported to 18)
+Implication: Bats likely in rooms: 12, 14, or adjacent areas
+
+
+=== STATE 4: ROOM 19 ===
+Room: 19
+Threat clues: BATS (*rustle*), WUMPUS (*sniff*)
+Tunnels: {3, 8, 10}
+Deductions: Bats ∈ {3,8,10}; Wumpus ∈ {3,8,10}
+IMPORTANT: Pit NOT in {3,8,10} (no draft)
+
+=== CURRENT DEDUCTION SUMMARY ===
+From room 19: Wumpus ∈ {3,8,10}
+From room 1: Wumpus ∉ {10,12,19}
+From room 20: Wumpus ∉ {7,13,14}
+From room 18: Wumpus ∉ {5,6,11}
+
+Combining: Wumpus ∈ {3,8,10} AND ∉ {10} → Wumpus ∈ {3,8}
+Wumpus narrowed to 2 possibilities: {3, 8}
+
+
+=== STATE 5: ROOM 11 ===
+Room: 11
+Threat clues: BATS (*rustle*)
+Tunnels: {4, 18, 19}
+Deductions: Bats ∈ {4,18,19}; Wumpus ∉ {4,18,19}
+
+=== REVISED WUMPUS DEDUCTION ===
+Previous: Wumpus ∈ {3,8}
+New from room 11: Wumpus ∉ {4}
+From room 19: Wumpus ∈ {3,8,10}
+From room 1: Wumpus ∉ {10}
+Still: Wumpus ∈ {3,8}
+
+=== CURRENT WUMPUS CONFIDENCE: 50% ===
+Either room 3 or room 8
+Need one more data point to increase confidence
+

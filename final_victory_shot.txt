@@ -1,0 +1,26 @@
+Shooting arrow through rooms: 3-6...
+
+Instructions? (y-n)
+You're in a cave with 20 rooms and 3 tunnels leading from each room.
+There are 3 bats and 3 pits scattered throughout the cave, and your
+quiver holds 5 custom super anti-evil Wumpus arrows.  Good luck.
+
+You are in room 14 of the cave, and have 5 arrows left.
+*whoosh* (I feel a draft from some pits).
+*sniff* (I can smell the evil Wumpus nearby!)
+There are tunnels to rooms 3, 4, and 5.
+Move or shoot? (m-s) The arrow falls to the ground at your feet!
+
+You are in room 14 of the cave, and have 5 arrows left.
+*whoosh* (I feel a draft from some pits).
+*sniff* (I can smell the evil Wumpus nearby!)
+There are tunnels to rooms 3, 4, and 5.
+Move or shoot? (m-s) I don't understand!
+
+You are in room 14 of the cave, and have 5 arrows left.
+*whoosh* (I feel a draft from some pits).
+*sniff* (I can smell the evil Wumpus nearby!)
+There are tunnels to rooms 3, 4, and 5.
+Move or shoot? (m-s)
+
+Arrow shot attempted!
